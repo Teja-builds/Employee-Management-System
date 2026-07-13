@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee</title>
+
+    <link rel="stylesheet" href="addEmployee.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+        <h2>EMS</h2>
+
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="employees.html">Employees</a></li>
+            <li><a href="addEmployee.html" class="active">Add Employee</a></li>
+            <li><a href="index.html">Logout</a></li>
+        </ul>
+
+    </div>
+
+    <!-- Main Content -->
+
+    <div class="main-content">
+
+        <h1>Add New Employee</h1>
+        <p class="subtitle">Fill in the employee information below.</p>
+
+        <form id="employeeForm">
+
+            <label>Employee Name</label>
+            <input
+                type="text"
+                id="employeeName"
+                placeholder="Enter Employee Name"
+                required>
+
+            <label>Email</label>
+            <input
+                type="email"
+                id="employeeEmail"
+                placeholder="Enter Email"
+                required>
+
+            <label>Phone Number</label>
+            <input
+                type="tel"
+                id="employeePhone"
+                placeholder="Enter Phone Number"
+                required>
+
+            <label>Department</label>
+
+            <select id="employeeDepartment">
+
+                <option>IT</option>
+                <option>HR</option>
+                <option>Finance</option>
+                <option>Marketing</option>
+                <option>Testing</option>
+                <option>Operations</option>
+
+            </select>
+
+            <label>Designation</label>
+
+            <input
+                type="text"
+                id="employeeDesignation"
+                placeholder="Enter Designation"
+                required>
+
+            <label>Salary</label>
+
+            <input
+                type="number"
+                id="employeeSalary"
+                placeholder="Enter Salary"
+                required>
+
+            <label>Status</label>
+
+            <select id="employeeStatus">
+
+                <option>Active</option>
+                <option>Inactive</option>
+
+            </select>
+
+            <div class="button-group">
+
+                <button type="submit">
+                    Save Employee
+                </button>
+
+                <button type="reset">
+                    Reset
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+<script src="addEmployee.js"></script>
+
+</body>
+</html>
