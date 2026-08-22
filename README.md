@@ -1,135 +1,62 @@
-# Employee Management System
+# 🚀 Employee Management System
 
-A responsive Employee Management System built using HTML, CSS, and JavaScript. This project demonstrates CRUD operations, Local Storage, responsive UI design, and clean frontend development practices.
+### SDET-Focused Full-Stack Employee Management & Testing Project
 
----
+A full-stack **Employee Management System** developed as a portfolio project with a strong focus on **Software Development Engineer in Test (SDET)** practices.
 
-## Project Overview
+The project combines a modern web interface with a **Java Spring Boot REST API**, employee CRUD workflows, validation, error handling, and an evolving test automation roadmap.
 
-The Employee Management System allows users to:
-
-- Add new employees
-- View all employees
-- Search employees
-- Edit employee details
-- Delete employees
-- Store employee data using Local Storage
-- View employee statistics on the dashboard
+The long-term objective is to transform this application into a complete **UI + API + Database + Automation + CI/CD testing project**.
 
 ---
 
-## Technologies Used
+## 📌 Project Overview
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Local Storage
+The Employee Management System provides a centralized platform to manage employee information through a clean and responsive web interface.
 
----
+The application currently supports:
 
-## Project Structure
-
-```
-Employee-Management-System/
-│
-├── Frontend/
-│   ├── index.html
-│   ├── dashboard.html
-│   ├── employees.html
-│   ├── addEmployee.html
-│   ├── editEmployee.html
-│   │
-│   ├── style.css
-│   ├── dashboard.css
-│   ├── employees.css
-│   ├── addEmployee.css
-│   ├── editEmployee.css
-│   │
-│   ├── script.js
-│   ├── dashboard.js
-│   ├── employees.js
-│   ├── addEmployee.js
-│   └── editEmployee.js
-│
-└── README.md
-```
-
----
-
-## Features
-
-### Dashboard
-- Total Employees
-- Active Employees
-- Inactive Employees
-- Total Departments
-
-### Employee Management
-- Add Employee
-- Edit Employee
-- Delete Employee
-- Search Employee
-- Employee Status
-
-### Storage
-- Uses Browser Local Storage
-- No database required
-
----
-
-## How to Run
-
-1. Clone the repository
-
-```
-git clone https://github.com/Teja-builds/Employee-Management-System.git
-```
-
-2. Open the project folder.
-
-3. Open the **Frontend** folder.
-
-4. Double-click **index.html**
-
-OR
-
-Open the project using VS Code and run it with Live Server.
-
----
-
-## Screens
-
-- Login Page
+- Employee login
 - Dashboard
-- Employee List
-- Add Employee
-- Edit Employee
+- Employee listing
+- Add employee
+- Edit employee
+- Delete employee
+- Search employees
+- Employee status management
+- Form validation
+- REST API integration
+- Frontend-to-backend communication
+- Error handling
+- Responsive user interface
+
+The project is being developed with an **SDET mindset**, where application functionality is treated as a system that needs to be validated through functional, API, integration, regression, and eventually automated end-to-end testing.
 
 ---
 
-## Future Improvements
+# 🎯 Project Objective
 
-- Backend Integration
-- Spring Boot REST APIs
-- MySQL Database
-- User Authentication
-- Role-Based Access Control
-- Pagination
-- Export to Excel/PDF
-- Docker Deployment
-- Jenkins CI/CD Pipeline
+The primary objective of this project is to build a realistic application that can be used to demonstrate practical skills required for modern **SDET / QA Automation Engineer** roles.
 
----
+Instead of building only a CRUD application, the project is being progressively extended into a complete testing ecosystem:
 
-## Author
-
-**Teja**
-
-GitHub:
-https://github.com/Teja-builds
-
----
-
-## License
-
-This project is created for learning, portfolio, and interview preparation purposes.
+```text
+Application
+     ↓
+Frontend Validation
+     ↓
+REST API Validation
+     ↓
+API Automation
+     ↓
+UI Automation
+     ↓
+Page Object Model
+     ↓
+Database Validation
+     ↓
+End-to-End Testing
+     ↓
+CI/CD Pipeline
+     ↓
+Automated Test Reports
